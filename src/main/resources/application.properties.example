@@ -1,0 +1,5 @@
+server.port=PORT
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.url=jdbc:postgresql://localhost:PORT/DATABASE
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
