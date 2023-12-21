@@ -8,7 +8,7 @@ Ce projet est une application Java Springboot qui expose des API Rest.
 
 Le projet peut être cloné à l'aide de la commande :
 ```bash
-git clone https://gitub.u-bordeaux.fr/sitis_2023/all/projetmoteurrecherche.git
+git clone https://github.com/Marwa-Benamor/Health_search_engine
 ```
 
 ### Paramétrage
@@ -43,7 +43,7 @@ Permet d'extraite les résultats de la page HTML de résultats PubMed afin de cr
 Les paramètres d'entrée sont : 
 1. `term` (String) : requête, par exemple *anemia*
 2. `dateRange` (String) : plage de date recherchée au format AAAA-AAAA, par exemple *2010-2023*
-3. `size` (Integer) : nombre de résultats souhaité, par exemple *50*
+3. `size` (Integer) : nombre de résultats souhaité, par exemple *1000*
 
 #### `index-corpus` : indexation d'un corpus de documents
 Permet d'indexer le corpus créé précédemment selon 3 niveaux : par mots, par termes et par concepts.
